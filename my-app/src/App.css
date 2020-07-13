@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500&family=Modak&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body,
+html {
+  padding: 0px;
+  margin: 0px;
+}
+.app-container {
+  position: relative;
+  top: 0px;
+  margin-top: 0 !important;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#quote-wraper {
+  background-color: #fff;
+  min-width: 50vw;
+  max-width: 50vw;
+  min-height: 40vh;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 4rem;
+  padding-bottom: 0.8rem;
+  border-radius: 20px;
+}
+
+#quote-wraper #text {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 2rem;
+}
+
+.author-container {
+  font-family: "Baloo Da 2", cursive;
+  display: flex;
+  justify-content: flex-end;
+  right: 2px;
+  margin-top: 2rem;
+}
+
+.btn-container {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.btn-container #new-quote,
+#tweet-quote {
+  font-family: "Baloo Da 2", cursive;
+  margin-right: 1rem;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 0.4rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+#author {
+  margin-left: 5px;
+}
